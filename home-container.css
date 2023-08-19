@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@300;800&family=Oswald:wght@700&family=Roboto:wght@500&display=swap");
+.introduce {
+  color: white;
+  width: 70vw;
+  height: 70vh;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.hobby-container,
+.project-container,
+.home-container {
+  height: 654px;
+  display: flex;
+  align-items: center;
+  background-image: url(img/Polygon-Backgrounds-Dark-V4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-container {
+  height: 654px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container {
+  justify-content: center;
+  flex-direction: row;
+}
+
+.names p,
+.auto-type {
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+}
+
+.f-name,
+.auto-type {
+  color: rgb(250, 51, 44);
+}

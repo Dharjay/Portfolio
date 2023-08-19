@@ -1,0 +1,67 @@
+.about-main-container {
+  width: 80vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-container {
+  flex-wrap: wrap;
+}
+.dp-img {
+  width: 300px;
+}
+.info p {
+  color: white;
+}
+.info {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.name,
+.uep {
+  color: rgb(238, 58, 58);
+}
+.info-name {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.uep {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.skills p {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.skills {
+  width: 490px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-top: 20px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+.skill-sets {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  width: 400px;
+}

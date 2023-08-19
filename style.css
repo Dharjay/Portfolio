@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Oswald:wght@700&family=Roboto:wght@500&display=swap");
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.nav-container {
+  z-index: 100;
+  position: fixed;
+  background-color: black;
+  color: white;
+  height: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-container a {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/**nav animation**/
+a:before,
+a::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: orangered;
+  transition: 0.5s;
+}
+a:after {
+  left: 0;
+  bottom: -10px;
+}
+a:before {
+  right: 0;
+  top: -10px;
+}
+a:hover:after,
+a:hover::before {
+  width: 100%;
+}

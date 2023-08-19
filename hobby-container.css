@@ -1,0 +1,49 @@
+.hobby-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hobbies {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icons {
+  height: 40px;
+}
+.box {
+  border: solid 5px white;
+  width: 300px;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-paragraph {
+  width: 300px;
+  margin-top: 70px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon-title {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon-title p {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+}
